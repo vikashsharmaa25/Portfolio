@@ -45,7 +45,7 @@ function Navbar() {
                 </span>
               </button>
             </NavLink>
-            <NavLink to="/education & certifications">
+            <NavLink to="/education">
               <button className="group relative py-1 px-2 overflow-hidden rounded-lg">
                 <div className="absolute inset-0 w-0 bg-green-500 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                 <span className="relative text-gray-300 group-hover:text-white">
@@ -95,7 +95,7 @@ function Navbar() {
                 </span>
               </button>
             </NavLink>
-            <NavLink to="/education & certifications" onClick={toggleMenu}>
+            <NavLink to="/education" onClick={toggleMenu}>
               <button className="group relative py-1 px-2 overflow-hidden rounded-lg">
                 <div className="absolute inset-0 w-0 bg-green-500 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                 <span className="relative text-white group-hover:text-white">

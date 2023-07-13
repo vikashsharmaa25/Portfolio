@@ -24,9 +24,31 @@ function Contact() {
           className="md:py-10 py-5 md:flex justify-center items-center"
         >
           <div className="md:w-1/2 p-4 flex justify-center items-center">
-            <div className="max-w-[350px]">
-              <img src={Profile} alt="" />
-            </div>
+            <motion.div
+              animate={{
+                y: [-10, 10], // Specify the start and end values for the y property
+              }}
+              transition={{
+                duration: 3, // Set the duration of each animation cycle
+                repeat: Infinity, // Set the animation to repeat indefinitely
+                repeatType: "reverse", // Reverse the animation direction on each cycle
+              }}
+              className="max-w-[350px] shadow-md shadow-pink-700 rounded-full p-2"
+            >
+              <motion.img
+                animate={{
+                  y: [-10, 10], // Specify the start and end values for the y property
+                }}
+                transition={{
+                  duration: 3, // Set the duration of each animation cycle
+                  repeat: Infinity, // Set the animation to repeat indefinitely
+                  repeatType: "reverse", // Reverse the animation direction on each cycle
+                }}
+                src={Profile}
+                alt=""
+                className="rounded-full"
+              />
+            </motion.div>
           </div>
           <div className="md:w-1/2 p-2">
             <h1 className="sm:text-6xl text-4xl font-medium text-center text-gray-300">

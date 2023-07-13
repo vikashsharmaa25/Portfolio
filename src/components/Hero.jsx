@@ -38,7 +38,7 @@ function Hero() {
             <h1>Hello👋</h1>
           </div>
           <div>
-            <h1 className="sm:text-3xl text-xl text-gray-400 sm:font-medium font-light py-6">
+            <h1 className="sm:text-3xl text-2xl text-gray-400 sm:font-medium font-light py-6">
               I'm <span className="text-pink-600 font-bold">Vikash Sharma</span>
               . MERN Stack Developer, Open Source Enthusiast 🔥. Always
               learning.
