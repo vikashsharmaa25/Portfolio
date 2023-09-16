@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Profile from "../assets/vikash.jpeg";
 import { motion } from "framer-motion";
-import { NavLink } from "react-router-dom";
 import {
   FaInstagram,
   FaGithub,
