@@ -118,7 +118,7 @@ function Contact() {
               </motion.div>
             </div>
             <a
-              href="https://drive.google.com/file/d/1ID4WC16QDVeKTFN2Idrpp_Cc-inEyvTK/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1BDPB3cEq2nMAT19RTeej3hVIWBMXpHHJ/view?usp=sharing"
               target="_blank"
               className="flex justify-center items-center py-6"
             >

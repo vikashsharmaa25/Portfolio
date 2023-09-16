@@ -55,14 +55,13 @@ function Projects() {
             </div>
           </div>
           {/* ===============Projects ==================== */}
-          <div className="flex justify-center items-center gap-2 md:flex-nowrap flex-wrap py-5 overflow-hidden">
-            {/* ===============================first project ============================ */}
 
+          <div className="grid md:grid-cols-3 gap-2 w-full">
             <motion.div
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5, delay: 2.4 }}
-              className="rounded-md p-5 bg-[#33353a] text-gray-300"
+              className="rounded-md p-5 bg-[#33353a] text-gray-300 "
             >
               <h1 className="text-2xl font-semibold  ">Amazon Clone</h1>
               <p className="text-[18px] py-5">
@@ -77,13 +76,11 @@ function Projects() {
                 <BiLogoMongodb className="text-green-700 text-4xl" />
               </div>
             </motion.div>
-
-            {/* ===============================second project ============================ */}
             <motion.div
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5, delay: 2.9 }}
-              className="rounded-md p-5 bg-[#33353a] text-gray-300"
+              className="rounded-md p-5 bg-[#33353a] text-gray-300 "
             >
               <h1 className="text-2xl font-semibold  ">Job Portal</h1>
               <p className="text-[18px] py-5">
@@ -98,13 +95,11 @@ function Projects() {
                 <BiLogoMongodb className="text-green-700 text-4xl" />
               </div>
             </motion.div>
-            {/* ===============================Third project ============================ */}
-
             <motion.div
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5, delay: 3.4 }}
-              className="rounded-md p-5 bg-[#33353a] text-gray-300"
+              className="rounded-md p-5 bg-[#33353a] text-gray-300 "
             >
               <h1 className="text-2xl font-semibold  ">Google Clone</h1>
               <p className="text-[18px] py-5">
@@ -117,49 +112,22 @@ function Projects() {
                 <BiLogoTailwindCss className="text-blue-500 text-4xl" />
               </div>
             </motion.div>
-
-            {/* ===================project end ================= */}
-          </div>
-          <div className="flex justify-center items-center gap-2 md:flex-nowrap flex-wrap py-5 overflow-hidden">
-            {/* ===============================first project ============================ */}
-
             <motion.div
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5, delay: 3.4 }}
-              className="rounded-md p-5 bg-[#33353a] text-gray-300"
+              className="rounded-md p-5 bg-[#33353a] text-gray-300 "
             >
-              <h1 className="text-2xl font-semibold  ">इतिहास दर्पण</h1>
+              <h1 className="text-2xl font-semibold  ">Youtube Clone</h1>
               <p className="text-[18px] py-5">
-                This is a Blog Website create using MERN [Mongo, Express, React,
-                Node] stack.That displays information an Indian Freedom Fighter.
-                The latest posts appearing first, at the top.
+                I tried to Clone Youtube using [React, Tailwind Css, Youtube
+                Apis].
               </p>
               <div className="flex items-center  gap-2 flex-wrap">
                 <FaReact className="text-blue-700 text-4xl" />
-                <FaNodeJs className="text-green-700 text-4xl" />
                 <BiLogoTailwindCss className="text-blue-500 text-4xl" />
-                <BiLogoMongodb className="text-green-700 text-4xl" />
               </div>
             </motion.div>
-            {/* ===============================Second project ============================ */}
-
-            {/* <div className="rounded-md p-5 bg-[#33353a] text-gray-300">
-              <h1 className="text-2xl font-semibold  ">Amazon Clone</h1>
-              <p className="text-[18px] py-5">
-                An E-commerce website built using MERN[Mongo, Express, React,
-                Node] stack and we have also added stripe payment gateway
-                integration [in test mode].
-              </p>
-              <div className="flex items-center  gap-2 flex-wrap">
-                <FaReact className="text-blue-700 text-4xl" />
-                <FaNodeJs className="text-green-700 text-4xl" />
-                <BiLogoTailwindCss className="text-blue-500 text-4xl" />
-                <BiLogoMongodb className="text-green-700 text-4xl" />
-              </div>
-            </div> */}
-
-            {/* ===================project end ================= */}
           </div>
 
           <motion.a

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
+
 import {
   FaInstagram,
   FaGithub,
